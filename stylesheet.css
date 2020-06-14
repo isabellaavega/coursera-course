@@ -4,3 +4,13 @@
 }
 @media (max width: 767px){
 }
+
+h1{
+  text-align: center;
+}
+section{
+  width: 300px;
+  border: 15px solid pink;
+  padding: 50px;
+  margin: 20px;
+}
