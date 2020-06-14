@@ -9,6 +9,7 @@ h1{
   text-align: center;
 }
 section{
+  text-align: center;
   width: 300px;
   border: 15px solid pink;
   padding: 50px;
