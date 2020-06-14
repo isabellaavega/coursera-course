@@ -10,7 +10,7 @@ h1{
 }
 section{
   font-size: 13px;
-  text-align: center;
+  text-align: left;
   width: 5px;
   border: 5px solid pink;
 }
