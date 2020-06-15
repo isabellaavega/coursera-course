@@ -10,18 +10,20 @@
 	  text-align: center;
 	  width: 32%;
 	  border: 1px solid black;
-	  background-color: pink;
 	  padding: 2px;
 	  margin: 2px;
 	}
 	#one{
 		float: left;
+		background-color: pink;
 	}
 	#two{
 		float: left;
+		background-color: blue;
 	}
 	#three{
 		float: left;
+		background-color: green;
 	}
 }
 @media(min-width: 768px) and (max-width: 991px){
@@ -42,11 +44,14 @@
 	}
 	#one{
 		float:left;
+		background-color: pink;
 	}
 	#two{
 		float: left;
+		background-color: blue;
 	}
 	#three{
+		background-color: green;
 		position: relative;
 		text-align: center;
 		width: 65%;
@@ -69,16 +74,18 @@
 	  text-align: center;
 	  width: 32%;
 	  border: 1px solid black;
-	  background-color: pink;
 	  padding: 2px;
 	  margin: 2px;
 	}
 	#one{
+		background-color: pink;
 		margin-left: 50px auto;
 	}
 	#two{
+		background-color: blue;
 		margin-left: 50px auto;
 	}
 	#three{
+		background-color: green;
 		float: left;
 }
