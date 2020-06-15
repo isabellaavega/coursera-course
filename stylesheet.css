@@ -1,42 +1,56 @@
-h1{
-  text-align: center;
-}
-section{
-  font-size: 13px;
-  text-align: left;
-  width: 30%;
-  border: 10px solid pink;
-  padding: 2px;
-  margin: 2px;
-}
-#one{
-	float: left;
-}
-#two{
-	float: left;
-}
-#three{
-	float: left;
-}
 @media (min-width: 992px){
-
-}
-@media(min-width: 768px) and (max-width: 991px){
+	h1{
+	  text-align: center;
+	}
 	div{
-		align-content: center;
-		display:grid;
+		margin: auto;
 	}
 	section{
-		flex: 1;
 	  font-size: 13px;
-	  width: 30%;
-	  border: 10px solid pink;
+	  text-align: center;
+	  width: 32%;
+	  border: 1px solid black;
+	  background-color: pink;
 	  padding: 2px;
 	  margin: 2px;
 	}
+	#one{
+		float: left;
+	}
+	#two{
+		float: left;
+	}
 	#three{
+		float: left;
+	}
+}
+@media(min-width: 768px) and (max-width: 991px){
+	h1{
+	  text-align: center;
+	}
+	div{
+		margin: auto;
+	}
+	section{
+	  font-size: 13px;
+	  text-align: center;
+	  width: 32%;
+	  border: 1px solid black;
+	  background-color: pink;
+	  padding: 2px;
+	  margin: 2px;
+	}
+	#one{
 		float:left;
-		width: 80%;
+	}
+	#two{
+		float: left;
+	}
+	#three{
+		position: relative;
+		text-align: center;
+		width: 65%;
+		top: 105px;
 	}
 	
 }
@@ -47,7 +61,24 @@ section{
     	height: 300px;
     	margin: 50px auto;
 	}
-	section{
-    	margin-right: 90px;
+	h1{
+	  text-align: center;
 	}
+	section{
+	  font-size: 13px;
+	  text-align: center;
+	  width: 32%;
+	  border: 1px solid black;
+	  background-color: pink;
+	  padding: 2px;
+	  margin: 2px;
+	}
+	#one{
+		margin-left: 50px auto;
+	}
+	#two{
+		margin-left: 50px auto;
+	}
+	#three{
+		float: left;
 }
